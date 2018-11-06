@@ -82,7 +82,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CrystalReport1.rpt</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Classes\clsFunction.vb" />
     <Compile Include="Classes\clsOrder.vb" />
@@ -167,6 +166,9 @@
     <EmbeddedResource Include="bin\Debug\Reports\CrystalReport1.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Product\AddQty_FRM.resx">
       <DependentUpon>AddQty_FRM.vb</DependentUpon>
