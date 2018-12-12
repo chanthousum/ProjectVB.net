@@ -3,7 +3,7 @@
     Dim objorder As New clsOrder
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.WindowState = FormWindowState.Maximized
-        AxShockwaveFlash1.Movie = Application.StartupPath & "\banner.swf"
+        'AxShockwaveFlash1.Movie = Application.StartupPath & "\banner.swf"
         txt_barcode.Select()
 
     End Sub

@@ -29,7 +29,7 @@ Partial Class Sale_FRM
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Me.AxShockwaveFlash1 = New AxShockwaveFlashObjects.AxShockwaveFlash()
+        'Me.AxShockwaveFlash1 = New AxShockwaveFlashObjects.AxShockwaveFlash()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -52,7 +52,7 @@ Partial Class Sale_FRM
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        CType(Me.AxShockwaveFlash1, System.ComponentModel.ISupportInitialize).BeginInit()
+        'CType(Me.AxShockwaveFlash1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -61,17 +61,17 @@ Partial Class Sale_FRM
         '
         'AxShockwaveFlash1
         '
-        Me.AxShockwaveFlash1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.AxShockwaveFlash1.Enabled = True
-        Me.AxShockwaveFlash1.Location = New System.Drawing.Point(0, 0)
-        Me.AxShockwaveFlash1.Name = "AxShockwaveFlash1"
-        Me.AxShockwaveFlash1.OcxState = CType(resources.GetObject("AxShockwaveFlash1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxShockwaveFlash1.Size = New System.Drawing.Size(770, 222)
-        Me.AxShockwaveFlash1.TabIndex = 0
+        'Me.AxShockwaveFlash1.Dock = System.Windows.Forms.DockStyle.Fill
+        'Me.AxShockwaveFlash1.Enabled = True
+        'Me.AxShockwaveFlash1.Location = New System.Drawing.Point(0, 0)
+        'Me.AxShockwaveFlash1.Name = "AxShockwaveFlash1"
+        'Me.AxShockwaveFlash1.OcxState = CType(resources.GetObject("AxShockwaveFlash1.OcxState"), System.Windows.Forms.AxHost.State)
+        'Me.AxShockwaveFlash1.Size = New System.Drawing.Size(770, 222)
+        'Me.AxShockwaveFlash1.TabIndex = 0
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.AxShockwaveFlash1)
+        'Me.Panel1.Controls.Add(Me.AxShockwaveFlash1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
@@ -326,7 +326,7 @@ Partial Class Sale_FRM
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Sale_FRM"
         Me.Text = "Form1"
-        CType(Me.AxShockwaveFlash1, System.ComponentModel.ISupportInitialize).EndInit()
+        'CType(Me.AxShockwaveFlash1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
@@ -335,7 +335,7 @@ Partial Class Sale_FRM
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents AxShockwaveFlash1 As AxShockwaveFlashObjects.AxShockwaveFlash
+    ''Friend WithEvents AxShockwaveFlash1 As AxShockwaveFlashObjects.AxShockwaveFlash
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
